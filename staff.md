@@ -18,13 +18,14 @@ Staff information is stored in the `_staffers` directory and rendered according 
 
 ## Undergraduate Student Instructors (uGSIs)
 
-{% assign instructors = site.staffers | where: 'role', 'uGSI' %}
+{% assign teaching_assistants = site.staffers | where: 'role', 'uGSI' %}
 {% for staffer in teaching_assistants %}
 {{ staffer }}
 {% endfor %}
 
 ## Tutors
 
+{% assign tutors = site.staffers | where: 'role', 'Tutor' %}
 {% for staffer in tutors %}
 {{ staffer }}
 {% endfor %}
