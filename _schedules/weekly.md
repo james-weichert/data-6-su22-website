@@ -22,45 +22,47 @@ schedule:
   - name: Monday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        start: 10:10 AM
+        end: 12:00 PM
+        location: 212 Wheeler
   - name: Tuesday
+    events:
+      - name: Lecture
+        start: 10:10 AM
+        end: 11:00 AM
+        location: 212 Wheeler
+      - name: Lab
+        start: 11:10 AM
+        end: 12:00 PM
+        location: 212 Wheeler
+      - name: Office Hours
+        start: 2:00 PM
+        end: 4:00 PM
+        location: TBD
   - name: Wednesday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        start: 10:10 AM
+        end: 12:00 PM
+        location: 212 Wheeler
   - name: Thursday
-  - name: Friday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
+        start: 10:10 AM
+        end: 11:00 AM
+        location: 212 Wheeler
+      - name: Lab
+        start: 11:10 AM
+        end: 12:00 PM
+        location: 212 Wheeler
       - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        start: 2:00 PM
+        end: 4:00 PM
+        location: TBD
+  - name: Friday
+    events:
+      - name: Discussion
+        start: 10:10 AM
+        end: 12:00 PM
+        location: 212 Wheeler
 ---
